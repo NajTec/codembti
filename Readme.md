@@ -1,5 +1,6 @@
 ## Code-Challenge
 In der Wordfile Documentation.docx befinden sich die Screenshots für die Implementierungen der Aufgabenstellungen.
+In der Challenge.sh file befinden sich die Befehle zur Installation von den Kubernetes-Komponenten.
 
 ## Welche Metriken?
 Man kann den memory überprüfen (heap alloc,heap idle), readiness probes durchführen etc.
