@@ -1,3 +1,6 @@
+## Code-Challenge
+In der Wordfile Documentation.docx befinden sich die Screenshots für die Implementierungen der Aufgabenstellungen.
+
 ## Welche Metriken?
 Man kann den memory überprüfen (heap alloc,heap idle), readiness probes durchführen etc.
 
@@ -15,4 +18,4 @@ Ich kann nur eine Lösung in AWS vorschlagen.
 CodeGuru ist neuer Service von AWS der Secrets im Quellcode erkennt. Er erkennt nicht nur das, sonder auch fehlerhafter Code -> Falsche Verwendung von Krypto-Bibs etc.
 Falls Secret erkannt wird: https://aws.amazon.com/blogs/aws/codeguru-reviewer-secrets-detector-identify-hardcoded-secrets/
 
-In der Wordfile befinden sich die Screenshots für die Implementierungen der Aufgabenstellungen.
+
