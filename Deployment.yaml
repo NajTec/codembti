@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: kuard-deployment
+ labels:
+  app: kuard-pod
+spec:
+ replicas: 3
+ selector:
+  matchLabels:
+   app: kuard-pod
+ template:
+  metadata:
+   labels:
+    app: kuard-pod
+  spec:
+   containers:
+    - name: kuard-container
+      image: gcr.io/kuar-demo/kuard-amd64:blue
+      ports: 
+       - containerPort: 8081
+         name: kuard-port
+                
